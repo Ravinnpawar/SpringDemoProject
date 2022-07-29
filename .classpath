@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (1)/spring-core-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (1)/spring-expression-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (1)/spring-jcl-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (4)/spring-instrument-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (5)/spring-beans-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (5)/spring-web-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (6)/spring-aop-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (6)/spring-context-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (7)/spring-jdbc-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (7)/spring-tx-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (9)/spring-web-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (9)/spring-websocket-5.3.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Om/Desktop/JavaBatch2/jars/jar_files (10)/spring-webmvc-5.3.22.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
