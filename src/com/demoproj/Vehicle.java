@@ -8,8 +8,13 @@ public class Vehicle {
 	private String vehicleName;
 	private int vehicleSpeed;
 	private int price;
-	
-	
+
+	Engine engine;
+
+	public Vehicle(Engine engine) {
+		this.engine = engine;
+	}
+
 	public Vehicle(String vehicleName, int vehicleSpeed, int price) {
 		super();
 		this.vehicleName = vehicleName;

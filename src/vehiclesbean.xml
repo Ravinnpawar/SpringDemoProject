@@ -12,10 +12,23 @@
         <property name="vehicleSpeed" value="180"></property>&ndash;&gt;
         </bean>-->
 
-    <bean id="vehicle" class="com.demoproj.Vehicle" init-method="init" destroy-method="destroy">
-        <!-- <property name="vehicleName" value="Hero"></property>
+    <!--<bean id="vehicle" class="com.demoproj.Vehicle" init-method="init" destroy-method="destroy">
+         <property name="vehicleName" value="Hero"></property>
          <property name="price" value="100000"></property>
-         <property name="vehicleSpeed" value="180"></property>-->
+         <property name="vehicleSpeed" value="180"></property>
+    </bean>-->
+
+    <bean id="beanTemplate" abstract="true" >
+        <property name="vehicleName" value="Hero"></property>
+        <property name="price" value="100000"></property>
+        <property name="vehicleSpeed" value="180"></property>
     </bean>
-    <bean class="com.demoproj.InitVehicle"></bean>
+
+    <bean id="bike" class="com.demoproj.Bike" parent="beanTemplate">
+        <property name="vehicleName" value="Activa"></property>
+        <property name="bColour" value="RED"></property>
+        <property name="gears" value="4"></property>
+    </bean>
+
+    <!--<bean class="com.demoproj.InitVehicle"></bean>-->
 </beans>
