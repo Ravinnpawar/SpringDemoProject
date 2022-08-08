@@ -143,5 +143,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="java-logging-1.0" level="project" />
   </component>
 </module>
