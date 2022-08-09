@@ -144,5 +144,8 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="java-logging-1.0" level="project" />
+    <orderEntry type="library" name="org.springframework.jdbc-3.0.2.RELEASE" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.6" level="project" />
   </component>
 </module>
